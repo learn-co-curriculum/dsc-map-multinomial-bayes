@@ -6,8 +6,9 @@
 Maximum A Posteriori provides a means for estimating a parameter given some prior knowledge about a variable. In it, one assumes a given distribution for the variable and then estimates the parameter itself given additional information. In this lesson, you'll see how Bayes' theorem can be applied in this manner and then extended to multivariate cases.
 
 ## Objectives
+You will be able to
 
-* You will be able to discuss the theory behind MAP
+* discuss the theory behind MAP
 
 ## Maximum A Posteriori Estimation
 
