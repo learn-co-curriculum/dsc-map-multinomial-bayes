@@ -12,7 +12,7 @@ You will be able to
 
 ## Maximum A Posteriori Estimation
 
-Maximum A Posteriori Estimation (MAP) is similar to Maximum Likelihood Estimation, but extends this concept by allowing one to also account for prior beliefs regarding the distribution of the variable in question. Recall Bayes theorem:  
+Maximum A Posteriori Estimation (MAP) is similar to Maximum Likelihood Estimation but extends this concept by allowing one to also account for prior beliefs regarding the distribution of the variable in question. Recall Bayes theorem:  
 
 $$ \large P(A|B) = \dfrac{P(B|A)(A)}{P(B)}$$
 
@@ -24,7 +24,7 @@ With MAP, you then attempt to optimize a parameter $\theta$ for the assumed dist
 
 ## Multinomial Bayes
 
-Multinomial Bayes also extends the notions within Bayes's theorem, allowing one to chain inferences. The primary assumption for this is assuming that your variables are independent from one another. Recall that if you assume two events A and B are independent from one another, then $P(A \cap B) = P(A)\cdot P(B)$. Similarly, if independence is assume when extending Bayes theorem to a multivariate case, one can multiply the successive probability estimates. Mathematically, this can be summarized as:  
+Multinomial Bayes also extends the notions within Bayes's theorem, allowing one to chain inferences. The primary assumption for this is assuming that your variables are independent of one another. Recall that if you assume two events A and B are independent of one another, then $P(A \cap B) = P(A)\cdot P(B)$. Similarly, if independence is assumed when extending Bayes theorem to a multivariate case, one can multiply the successive probability estimates. Mathematically, this can be summarized as:  
 
 $$ \large P(Y|X_1, X_2,...,X_n) = \dfrac{P(X_1|Y)\cdot P(X_2|Y) \cdot ... \cdot P(X_n|Y)}{P(X_1, X_2,...,X_n)}P(Y)$$
 
