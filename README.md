@@ -8,7 +8,7 @@ Maximum A Posteriori provides a means for estimating a parameter given some prio
 ## Objectives
 You will be able to
 
-* Identify how Maximum A Posterior Estimation is related to MLE
+* Identify how Maximum A Posteriori Estimation is related to MLE
 
 ## Maximum A Posteriori Estimation
 
@@ -18,7 +18,7 @@ $$ \large P(A|B) = \dfrac{P(B|A)(A)}{P(B)}$$
 
 The Bayesian interpretation of this formula is
 
-$$ \large \text{Posterior} = \dfrac{\text{Likelikhood} \cdot \text{Prior}}{\text{Evidence}}$$
+$$ \large \text{Posterior} = \dfrac{\text{Likelihood} \cdot \text{Prior}}{\text{Evidence}}$$
 
 With MAP, you then attempt to optimize a parameter $\theta$ for the assumed distribution in order to maximize the posterior probability. 
 
@@ -30,4 +30,4 @@ $$ \large P(Y|X_1, X_2,...,X_n) = \dfrac{P(X_1|Y)\cdot P(X_2|Y) \cdot ... \cdot 
 
 ## Summary
 
-This lesson briefly introduced the concept of Maximum A Posteriori Estimation and extending Bayes' theorem to multivariate cases. In the upcoming sections, you'll investigate these ideas in practice, working with practical examples and coding your own implementations to gain a full understanding.
+This lesson briefly introduced the concept of Maximum A Posteriori Estimation and extending Bayes' theorem to multivariate cases. In later sections, you'll investigate these ideas in practice, working with practical examples and coding your own implementations to gain a full understanding.
